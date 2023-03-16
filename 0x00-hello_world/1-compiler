@@ -1,2 +1,2 @@
 #!/bin/bash
-gcc -Ec $CFILE -o "main%.c".o
+gcc -c $CFILE
