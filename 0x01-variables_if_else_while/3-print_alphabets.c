@@ -2,7 +2,7 @@
 #include <stdio.h>
 
 /**
- * main - Prints alphapet in lowercase
+ * main - Prints alphapet in lowercase and uppercase
  *
  * Return: Always 0.
  */
@@ -18,10 +18,10 @@ int main(void)
 		small++;
 	}
 	while (capital <= 'Z')
-        {
-                putchar(capital);
-                capital++;
-        }
+	{
+        	putchar(capital);
+        	capital++;
+	}
 	putchar('\n');
 	return (0);
 }
