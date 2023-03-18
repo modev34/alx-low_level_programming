@@ -11,6 +11,7 @@ int main(void)
 {
 	char bnum = '0';
 	char blet = 'a';
+
 	while (bnum <= '9')
 	{
 		putchar(bnum);
