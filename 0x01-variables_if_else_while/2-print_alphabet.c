@@ -12,12 +12,7 @@
 
 int main(void)
 {
-	int n;
 	char letter = 'a';
-	srand(time(0));
-	n = rand() - RAND_MAX / 2;
-	/* your code goes there */
-
 	while(letter <= 'z')
 	{
 		putchar(letter);
