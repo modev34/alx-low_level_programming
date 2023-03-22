@@ -1,7 +1,7 @@
 #include "main.h"
 
 /**
- * abs - return the absulute value of a number
+ * _abs - return the absulute value of a number
  * @n: is the number that will be computed
  * Return: Always 0.
  */
@@ -19,5 +19,5 @@ int _abs(int n)
 	{
 		result = 0;
 	}
-	return result;
+	return (result);
 }
