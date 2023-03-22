@@ -1,14 +1,15 @@
 #include "main.h"
 
 /**
- * main - check the code
+ * jack_bauer - returns the time
  *
- * Return: Always 0.
+ * Return: nothing.
  */
 
 void jack_bauer(void)
 {
 	int hours, mint;
+	
 	for (hours = 0; hours < 24; hours++)
 	{
 		for (mint = 0; mint < 60; mint++)
