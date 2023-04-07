@@ -1,6 +1,6 @@
 #include "main.h"
 /**
- * is_divisible - checks if a number is divisible by any integer in [2, sqrt(n)]
+ * is_divisible - checks number is divisible by any integer in [2, sqrt(n)]
  * @n: the number to check
  * @i: the current integer to test for divisibility
  * Return: 1 if n is not divisible by any integer in [2, sqrt(n)], 0 otherwise
